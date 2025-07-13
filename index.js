@@ -1,7 +1,7 @@
 //----------- For Image1(Player1) Randomiztion ------------------
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
-let randomDiceImage1 = "Dice" + randomNumber1 + ".png"; //Dice1.png - Dice6.png
+let randomDiceImage1 = "dice" + randomNumber1 + ".png"; //Dice1.png - Dice6.png
 
 let randomImageSource1 = "images/" + randomDiceImage1; //images/Dice1.png - images/Dice6.png 
 
@@ -14,7 +14,7 @@ image1.setAttribute("src",randomImageSource1);
 //----------- For Image2(Player2) Randomiztion ------------------
 
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
-let randomImageSource2 = "images/Dice" + randomNumber2 + ".png"; //Dice1.png - Dice6.png 
+let randomImageSource2 = "images/dice" + randomNumber2 + ".png"; //Dice1.png - Dice6.png 
 let image2 = document.querySelectorAll("img")[1].setAttribute("src",randomImageSource2);
 
 
